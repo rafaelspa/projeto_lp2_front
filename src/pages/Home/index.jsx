@@ -72,7 +72,7 @@ function Home() {
                         checked={userType === 'laborious'}
                         onChange={handleCheckboxChangeUserType}
                     />
-                    Laborious
+                    Trabalhoso
                 </label>
                 <br />
                 <label>
@@ -92,7 +92,7 @@ function Home() {
                         checked={userType === 'special'}
                         onChange={handleCheckboxChangeUserType}
                     />
-                    Special
+                    Especial
                 </label>
             </div>
 
