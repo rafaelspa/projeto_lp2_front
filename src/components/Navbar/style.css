@@ -1,0 +1,18 @@
+header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  var(--color-secondary);
+  }
+  
+  .nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px
+  }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { api } from '../../services/axios.js';
 import { useParams } from 'react-router-dom';
+import './style.css'
 
 const Profile = () => {
     const { id } = useParams();
@@ -20,20 +21,18 @@ const Profile = () => {
         picture: {},
         nationality: "",
     });
-    
-    
-    
+
     useEffect(() => {
         api.get(`/users/${id}`)
             .then(response => {
                 const data = response.data;
                 setUser(data);
             })
-    },[])
-    
+    }, [])
+
     return (
-        <div>
-            <img src={user.picture.large}/>
+        <div className='profile-container'>
+            <img src={user.picture.large} />
             <h1>User Profile</h1>
             <p>ID: {user.id}</p>
             <p>Type: {user.type}</p>

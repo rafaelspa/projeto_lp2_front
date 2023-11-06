@@ -3,8 +3,8 @@ import logo from '../../assets/logo.png'
 
 const Logo = () => {
     const divStyle = {
-        width: '125px',
-        height: '125px'
+        width: '150px',
+        height: '150px'
       };
 
     return (
