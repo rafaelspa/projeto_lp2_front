@@ -1,16 +1,24 @@
 # Trabalho LP2 - 2º semestre de 2023
 
-# front
+## Integrantes:
 
-  deploy: [https://main--snazzy-lollipop-315cd9.netlify.app/](https://main--snazzy-lollipop-315cd9.netlify.app/)
+- Guilherme Turato 	SP3097846
+- Gustavo           SP3097714
+- Pedro Enzo		SP3096211
+- Rafael Caixeta	SP3094537
+- Rafael Simões		SP3094812
 
-  repo: [https://github.com/rafaelspa/projeto_lp2_front](https://github.com/rafaelspa/projeto_lp2_front)
+## front
 
-# back
+deploy: [https://main--snazzy-lollipop-315cd9.netlify.app/](https://main--snazzy-lollipop-315cd9.netlify.app/)
 
-  deploy: [https://projeto-lp2-back-9ac1bbc9644e.herokuapp.com/](https://projeto-lp2-back-9ac1bbc9644e.herokuapp.com/)
-  
-  repo: [https://github.com/rafaelspa/projeto_lp2_back](https://github.com/rafaelspa/projeto_lp2_back)
+repo: [https://github.com/rafaelspa/projeto_lp2_front](https://github.com/rafaelspa/projeto_lp2_front)
+
+## back
+
+deploy: [https://projeto-lp2-back-9ac1bbc9644e.herokuapp.com/](https://projeto-lp2-back-9ac1bbc9644e.herokuapp.com/)
+
+repo: [https://github.com/rafaelspa/projeto_lp2_back](https://github.com/rafaelspa/projeto_lp2_back)
 
 
 # Code Challenge Juntos Somos+
