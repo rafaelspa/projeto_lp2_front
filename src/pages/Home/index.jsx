@@ -115,7 +115,7 @@ function Home() {
                         checked={regions.includes('north')}
                         onChange={handleCheckboxChangeRegion}
                     />
-                    North
+                    Norte
                 </label>
                 <br />
                 <label>
@@ -125,7 +125,7 @@ function Home() {
                         checked={regions.includes('northeast')}
                         onChange={handleCheckboxChangeRegion}
                     />
-                    South
+                    Nordeste
                 </label>
                 <br />
                 <label>
@@ -135,7 +135,7 @@ function Home() {
                         checked={regions.includes('midwest')}
                         onChange={handleCheckboxChangeRegion}
                     />
-                    West
+                    Centro-Oeste
                 </label>
                 <br />
                 <label>
@@ -145,7 +145,7 @@ function Home() {
                         checked={regions.includes('southeast')}
                         onChange={handleCheckboxChangeRegion}
                     />
-                    East
+                    Sudeste
                 </label>
                 <br />
                 <label>
@@ -155,7 +155,7 @@ function Home() {
                         checked={regions.includes('south')}
                         onChange={handleCheckboxChangeRegion}
                     />
-                    Northeast
+                    Sul
                 </label>
             </div>
 
