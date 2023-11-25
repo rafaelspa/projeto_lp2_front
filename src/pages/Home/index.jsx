@@ -56,40 +56,41 @@ function Home() {
 
                 <div className="checkboxes">
                     <div>
-                        <h3>Tipo de usuário:</h3>
-                        <label>
+                        <h3>Tipo de usuário</h3>
+                        <label className={'form-check'}>
                             <input
-                                type="checkbox"
+                                className={"form-check-input"}
+                                type="radio"
                                 value=""
                                 checked={!userType}
                                 onChange={handleClearAllUserTypes}
                             />
                             Todos
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check'}>
                             <input
-                                type="checkbox"
+                                className={"form-check-input"}
+                                type="radio"
                                 value="laborious"
                                 checked={userType === 'laborious'}
                                 onChange={handleCheckboxChangeUserType}
                             />
                             Trabalhoso
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check'}>
                             <input
-                                type="checkbox"
+                                className={"form-check-input"}
+                                type="radio"
                                 value="normal"
                                 checked={userType === 'normal'}
                                 onChange={handleCheckboxChangeUserType}
                             />
                             Normal
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check'}>
                             <input
-                                type="checkbox"
+                                className={"form-check-input"}
+                                type="radio"
                                 value="special"
                                 checked={userType === 'special'}
                                 onChange={handleCheckboxChangeUserType}
@@ -99,60 +100,67 @@ function Home() {
                     </div>
 
                     <div>
-                        <h3>Região:</h3>
-                        <label>
+                        <h3>Região</h3>
+                        <label className={'form-check form-switch'}>
                             <input
+                                className={'form-check-input'}
                                 type="checkbox"
+                                role="switch"
                                 value=""
                                 checked={regions.length === 0}
                                 onChange={handleClearAllRegion}
                             />
                             Todas
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check form-switch'}>
                             <input
+                                className={'form-check-input'}
                                 type="checkbox"
+                                role="switch"
                                 value="north"
                                 checked={regions.includes('north')}
                                 onChange={handleCheckboxChangeRegion}
                             />
                             Norte
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check form-switch'}>
                             <input
+                                className={'form-check-input'}
                                 type="checkbox"
+                                role="switch"
                                 value="northeast"
                                 checked={regions.includes('northeast')}
                                 onChange={handleCheckboxChangeRegion}
                             />
                             Nordeste
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check form-switch'}>
                             <input
+                                className={'form-check-input'}
                                 type="checkbox"
+                                role="switch"
                                 value="midwest"
                                 checked={regions.includes('midwest')}
                                 onChange={handleCheckboxChangeRegion}
                             />
                             Centro-Oeste
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check form-switch'}>
                             <input
+                                className={'form-check-input'}
                                 type="checkbox"
+                                role="switch"
                                 value="southeast"
                                 checked={regions.includes('southeast')}
                                 onChange={handleCheckboxChangeRegion}
                             />
                             Sudeste
                         </label>
-                        <br />
-                        <label>
+                        <label className={'form-check form-switch'}>
                             <input
+                                className={'form-check-input'}
                                 type="checkbox"
+                                role="switch"
                                 value="south"
                                 checked={regions.includes('south')}
                                 onChange={handleCheckboxChangeRegion}
