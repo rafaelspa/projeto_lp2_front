@@ -179,10 +179,12 @@ function Home() {
                         )
                         )}
                     </div>
+                    <Pagination page={page} onChange={handlePageChange} />
                 </div>
+
             </div>
 
-            <Pagination page={page} onChange={handlePageChange} />
+
 
         </>
     )
