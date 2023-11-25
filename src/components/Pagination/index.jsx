@@ -12,9 +12,9 @@ const Pagination = ({ page, onChange }) => {
                  disabled={page.pageNumber === 0} onClick={() => onChange(page.pageNumber)} >
                     <img src={ArrowIcon} />
                 </button>
-                <p>{`${page.pageNumber + 1} de ${page.totalCount}`}</p>
+                <p>{`${page.pageNumber + 1} de ${Math.floor(page.totalCount/page.pageSize) + 1}`}</p>
                 <button className="pagination-button" 
-                 disabled={page.pageNumber === 2000} onClick={() => onChange(page.pageNumber + 2)} >
+                 disabled={page.pageNumber === Math.floor(page.totalCount/page.pageSize)} onClick={() => onChange(page.pageNumber + 2)} >
                     <img src={ArrowIcon} className="flip-horizontal" />
                 </button>
             </div>
